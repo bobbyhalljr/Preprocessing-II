@@ -1,1 +1,15 @@
 // Mixins in here
+.a(){
+    text-decoration: none;
+    color: @shark;
+    font-size: 16px;
+}
+
+.button(@bg-color, @color, @border-radius){
+    background: @bg-color;
+    color: @color;
+    border-radius: @border-radius;
+    padding: 15px 20px;
+    font-size: 18px;
+    text-align: center;
+}
